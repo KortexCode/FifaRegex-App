@@ -19,7 +19,9 @@ form.addEventListener("keyup", validate);
 btn.addEventListener("mouseup", filterResults);
 
 let file; //Aquí se guarda el archivo local
-//Leyendo archivo liners.txt local
+
+//FUNCIONES
+//Leyendo archivo resultsfootball.csv local
 async function reader() {
   try {
     const res = await fetch("./resultsFootball.csv", {
@@ -35,8 +37,7 @@ async function reader() {
 }
 reader();
 
-//FUNCIONES
-//Función validadora de email por medio del inpunt
+//Función que filtra los valores agregados a los inputs
 function validate() {
   //Se crea un objeto FormData para obtener los valores de los inputs
   const formData = new FormData(form);
@@ -84,10 +85,10 @@ function filterResults() {
   }
 }
 
-//Esta función se encargará de agregar las etiquetas "p" con cada match al contendor de results
+//Esta función se encargará de agregar las etiquetas "p" con cada match al contendor de results para
+//ser mostrados
 function showResults(re) {
   const fragment = document.createDocumentFragment();
-  console.log(fragment);
   resultsContainer.innerHTML = "";
   if (file.match(re)) {
     file.match(re).forEach((item) => {
@@ -95,7 +96,6 @@ function showResults(re) {
       p.classList.add("result");
       let chain = item.split(",");
       chain.pop();
-      console.log(chain);
       const text = chain.join(", ");
       p.textContent = text;
       fragment.appendChild(p);
