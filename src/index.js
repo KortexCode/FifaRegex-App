@@ -19,7 +19,9 @@ form.addEventListener("keyup", validate);
 btn.addEventListener("mouseup", filterResults);
 
 let file; //Aquí se guarda el archivo local
-//Leyendo archivo liners.txt local
+
+//FUNCIONES
+//Leyendo archivo resultsfootball.csv local
 async function reader() {
   try {
     const res = await fetch("../resultsFootball.csv", {
@@ -35,7 +37,6 @@ async function reader() {
 }
 reader();
 
-//FUNCIONES
 //Función validadora de email por medio del inpunt
 function validate() {
   //Se crea un objeto FormData para obtener los valores de los inputs
@@ -56,7 +57,7 @@ function validate() {
   }
 }
 
-//Función que muestra los resultados
+//Función que filtra los valores agregados a los inputs
 function filterResults() {
   //Se crea un objeto FormData para obtener los valores de los inputs
   const formData = new FormData(form);
@@ -64,7 +65,7 @@ function filterResults() {
   const validateName = formData.get("name");
   const validateDate = formData.get("date");
   const validateMatch = formData.get("match");
-
+  //Se valida si el usuario elegió ver resultados de visitante o local
   if (validateMatch === "visitor") {
     const re = new RegExp(
       validateDate +
@@ -73,7 +74,7 @@ function filterResults() {
         ",(\\d+),(\\d+),.*",
       "gi"
     );
-    showResults(re);
+    showResults(re); //llama la función para ver los resultados
   }
   if (validateMatch === "local") {
     const re = new RegExp(
@@ -84,7 +85,8 @@ function filterResults() {
   }
 }
 
-//Esta función se encargará de agregar las etiquetas "p" con cada match al contendor de results
+//Esta función se encargará de agregar las etiquetas "p" con cada match al contendor de results para
+//ser mostrados
 function showResults(re) {
   const fragment = document.createDocumentFragment();
   console.log(fragment);
