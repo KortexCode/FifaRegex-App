@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <title>JS REGEX</title>
+    </head>
+    <body>
+        <main>
+            <h1>FIFA MATCHES REPORT</h1>
+            <p class="intro">You can search matches played in a year between 1872 to 2018 by some country's football team</p>
+            <div id="container1">
+                
+                <form id="form" action="">
+                    <div class="form__container-values">
+                        <label for="date">Year</label>
+                        <input id="date_input" type="text" name="date" placeholder="2018">
+                        <label for="name">Country Name</label>
+                        <input id="team_input" type="text" name="name" placeholder="Argentina">
+                    </div>
+                    <div class="selecter">
+                        <label for="match">Choose local or visitor</label>
+                        <select name="match" id="match">
+                            <option value="local">Local</option>
+                            <option value="visitor" selected>Visitor</option>
+                        </select>
+                    </div>
+                    <input id="btn" type="button" value="Search" disabled>
+                </form>
+            </div>
+            <div id="container2">
+                <h2>Result view:</h2>
+                <div id="container2__results-container">
+    
+                </div>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+        <script type="text/javascript" src="../src/index.js"></script>
+    </body>
+</html>

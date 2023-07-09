@@ -1,0 +1,94 @@
+1, f
+12
+123
+match
+match5
+12345678910df
+12345678910a
+13453243
+www.sitiodeejemplo.net/pagina.php/?nombredevalor1=valor1&nombredevalor2=valor2
+http://b3co.com/?s=fotografia&mode=search&module=blog
+https://rsd.com/Emp/all/?Buscar=buscar&Empleado=carlos&no=10&T-el-Casa=ewr44&Celular=49&Puesto=re&FechaIngreso=43&NumeroCuenta=43&NoSeguro=444&Empresa=e
+Camilo Sarmiento Gálvez
+Alejandro Pliego Abasto
+Milagros Reyes Japón
+Samuel París Arrabal
+Juan Pablo Tafalla
+Axel Gálvez Velázquez
+Óscar Montreal Aparicio
+Jacobo Pozo Tassis
+Guillermo Ordóñez Espiga
+Iris Graciani
+Asunción Carballar
+Constanza Muñoz
+
+maeno323@gmail.com
+esto.esun.mail@mail.com
+esto.esun.mail+complejo@mail.com
+dominio.com
+rodrigo.jimenez@yahoo.com.mx
+ruben@starbucks.com
+esemail@dominio.com
+internet3@hotmail.com
+
+csv1,csv2,csv3,csv4,csv5
+Rodrigo Jiménez Gutiérrez
+55.65.11.12
+56-58
+56-58-11
+56-58-11-12
+555658
+56-58-11
+56.58.11
+56.78-98
+65 09 87
+76y87r98
+45y78-56
+78.87 65
+78 54-56
++521565811
+58-11-11#246
+55-5632-0417
+55256048p123
+55256048e123
+302-345\-9876
+[LOG ENTRY] [ERROR] The system is unstable
+[LOG ENTRY] [WARN] The system may be down
+[LOG ENTRY] [LOG] Everything is OK
+[LOG ENTRY] [LOG] [user:@beco] Logged in
+[LOG ENTRY] [ERROR] [user:@beco] Clicked here
+[LOG ENTRY] [WARN] [user:@beco] Rated the app
+[LOG ENTRY] [ERROR] [user:@beco] Logged out
+url: https://www.instagram.com/p/BXB4zsUlW5Z/?taken-by=beco.mx
+url: http://instagram.com/p/blablablah
+url: http://itam.mx/test
+http://instagram.com/p/blablablah
+https://www.vanguarsoft.com.ve
+http://platzi.com
+https://traetelo.net
+https://traetelo.net/images archivo.jsp
+url: https://subdominio.traetelo.net
+url: https://www.instagram.com/p/BXB4zsUlW5Z/?taken-by=beco.mx
+url: http://instagram.com/p/blablablah
+url: http://itam.mx/test
+http://instagram.com/p/blablablah
+https://www.google.com.co/
+https://sub.dominio.de.alguien.com/ archivo.html
+https://en.wikipedia.org/wiki/.org
+https://cdn-microsoft.org/image/seixo2t9sjl_22.jpg
+https://hola.pizza
+https://platzi.com/clases/1301-expresiones-regulares/11860-urls9102/clase
+https://api.giphy.com/v1/gifs/search?q=Rick and Morty&limit=10&api_key=DG3hItPp5HIRNC0nit3AOR7eQZAe
+http://localhost:3000/something?color1=red&color2=blue
+http://localhost:3000/display/post?size=small
+http://localhost:3000/?name=satyam
+http://localhost:3000/scanned?orderid=234
+http://localhost:3000/getUsers?userId=12354411&name=Billy
+http://localhost:3000/getUsers?userId=12354411
+http://localhost:3000/search?city=Barcelona
+www.sitiodeejemplo.net/pagina.php?nombredevalor1=valor1&nombredevalor2=valor2
+-99.205646,19.429707,2275.10
+-99.205581, 19.429652,2275.10
+-99.204654,19.428952,2275.58
+-99 12' 34.08"W, 19 34' 56.98"N
+-34 54' 32.00"E, -3 21' 67.00"S
